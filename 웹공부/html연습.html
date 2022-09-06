@@ -1,0 +1,103 @@
+<!DOCTYPE html> 
+ <!-- 느낌표 탭을 누르면 틀이 생성됨. -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- js쓰는 첫번째 방법 -->
+    <script>
+        alert("hello world");
+    </script>
+    <script src="myScript.js"></script>
+    <!-- css쓰는 두번째 방법 -->
+    <style>
+        h1{
+            color : red;
+        }
+    </style>
+    <link rel="stylesheet" href="myFirstCSS.css">
+</head>
+<body>
+    <!-- css쓰는 첫번째 방법 -->
+    <div style="color:aquamarine">디브1</div>
+    <div>디브2</div>
+    <div>디브3</div> 
+    <!-- div*3을 하고 엔터를 누르면 디브가 세개 생성됨 -->
+    
+    <br>
+    <span>스팬1</span>
+    <span>스팬2</span>
+    <span>스팬3</span>
+
+    <h1>하이라이트1</h1>
+    <h2>하이라이트2</h2>
+    <h8>하이라이트8</h8>
+
+    <button>버튼1</button>
+    <button>버튼2</button>
+
+    <table border="1">
+        
+        <th>이름</th>
+        <th>나이</th>
+        <th>몸무게</th>
+
+        <tr>
+            <td id="nickname">박근태</td>
+            <td class="age">45</td>
+            <td class="age">110</td>
+        <!-- </tr> ## tr>td*3을 작성하고 엔터를 치면 table row안에 table data가 세개 형성됨 플로그인 에밋을 설치해서 가능한 것 -->
+        <tr>
+            <td id="nickname">문호준</td>
+            <td class="age">45</td>
+            <td class="age">173</td>
+        </tr>
+        <tr>
+            <td id="nickname">김선형</td>
+            <td class="age">45</td>
+            <td class="age">110</td>
+        </tr>
+        <tr>
+            <td id="nickname">몸무게합</td>
+            <td colspan="2" class="age">234</td>
+            
+        </tr>
+    </table>
+
+    <ul>
+        <li>C언어</li>
+        <li>Jave</li>
+        <li>Python</li>
+        <li>Ruby</li>
+    </ul>
+    <!-- form 안에 있는 input 데이터들이 name의 이름을 가지고 -->
+    <form action="http://www.naver.com/join" method="get">
+        <div>
+            <input type="text" placeholder="가장 좋아하는 언어" name="favoritePL" > 
+            <!-- id는 이문서에서 유일하게 선택할 수 있도록 지정
+            class 는 이문서에서 공통점을 묶어서 그룹으로 선택할 수 있도록 지정
+            name은 백엔드로 넘어갈때의 이름 , 주석 처리는 ctrl + /-->
+        </div>
+        <div>
+            <input type="text" placeholder="가장 잘하고 싶은 언어" name="wannabePL">
+        </div>
+        <input type="radio">
+        <input type="checkbox">
+        <input type="color">
+        <input type="number">
+        <input type="date">
+        <input type="text">
+        <button type="submit">제출</button>
+    </form>
+
+    <img src="https://ursd.org/wp-content/uploads/2020/12/1.png" alt="" width="300px">
+    
+    
+</body>
+</html>
+<!-- 
+카멜케이스 = 낙타표기법 = myFirstName 소문자로 시작. 이어지는 단어의 첫글자를 대문자로
+자바, 자바스크립트의 표준 명명 규칙
+스네이크케이스 = 뱀 표기법 = my_first_name 이어지는 단어마다 언더바 -->

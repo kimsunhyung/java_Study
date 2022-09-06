@@ -1,0 +1,30 @@
+{
+	"folders": [
+		{
+			"path": "../StudyAboutDevelop"
+		},
+		{
+			"path": "D:/웹공부"
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501,
+		"workbench.colorCustomizations": {
+			"editor.lineHighlightBackground": "#363062",
+			"editor.selectionBackground": "#827397",
+			"editor.wordHighlightBackground": "#ffffff",
+			"editorCursor.foreground": "#f10808"
+		},
+		"editor.tokenColorCustomizations": {
+			"textMateRules": [
+				{
+					"scope": "comment",
+					"settings": {
+						"fontStyle": "italic",
+						"foreground": "#f3a32b"
+					}
+				}
+			]
+		}
+	}
+}
