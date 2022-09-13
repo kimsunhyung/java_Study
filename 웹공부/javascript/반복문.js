@@ -1,4 +1,4 @@
-// //for(시작; 조건; 스탭){조건 만족 시 실행할 코드}
+// // for(시작; 조건; 스탭){조건 만족 시 실행할 코드}
 // // for(let a = 1; a<=100; a++){
 // //     console.log(a);
 // // }
@@ -91,8 +91,8 @@
 
 //do while 문 - 한번은 실행하고 조건을 본다
 
-let maxhi = 50;
-let num22 = 300;
-do{
-    console.log(num22++);
-}while(num22<maxhi);
+// let maxhi = 50;
+// let num22 = 300;
+// do{
+//     console.log(num22++);
+// }while(num22<maxhi);
